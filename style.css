@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&family=Inter:wght@100;400&family=Open+Sans:wght@300&family=Pacifico&family=Palanquin+Dark:wght@600&family=Quicksand:wght@300&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Courgette&family=Dancing+Script:wght@700&family=Inter:wght@100;400&family=Open+Sans:wght@300&family=Pacifico&family=Palanquin+Dark:wght@600&family=Quicksand:wght@300&family=Raleway:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +26,14 @@
 nav ul li {
     padding: 1rem;
     transition: 1s ease-in;
+}
+
+.logo {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    color: #18F1E4;
+    font-family: 'Black Ops One', cursive;
 }
 
 nav ul li a {
@@ -102,6 +110,16 @@ nav ul li a {
     font-size: calc(1.5rem + 1vw);
     color: #18F1E4;
     font-family: 'Open Sans', sans-serif;
+}
+
+.resume button {
+    background-color: #18F1E4;
+    border: 1px solid #18F1E4;
+    border-radius: 5px;
+}
+
+.resume button:hover {
+    background-color: #24e8db;
 }
 
 .image img {
@@ -225,6 +243,7 @@ ul li h3 {
 
 .contact .contactform .forms {
     border: 1px solid #18F1E4;
+    background-color: #3d5352;
 }
 
 .contact .contactform form input {
